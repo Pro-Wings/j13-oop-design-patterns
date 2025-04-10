@@ -1,0 +1,5 @@
+Components of Abstract Factory Design Pattern
+Abstract Factory: This is the main interface that declares a set of creation methods for creating the abstract products. It serves as a contract for concrete factories to implement. The abstract factory typically represents a family of related products.
+Concrete Factory: These are the implementations of the abstract factory interface. Each concrete factory is responsible for creating a specific set of products, which are compatible within a specific variation or family.
+Abstract Product: This represents the interface of the products that the abstract factory creates. It defines a set of operations that concrete products must implement.
+Concrete Product: These are the actual product implementations created by concrete factories. Each concrete factory creates a different variant of the product by implementing the abstract product interface.
